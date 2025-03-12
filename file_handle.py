@@ -11,6 +11,7 @@ def read_and_write_file():
         modified_content = content.upper()
 
         # Write to a new file
+        
         output_filename = "output.txt"
         with open(output_filename, "w") as output_file:
             output_file.write(modified_content)
